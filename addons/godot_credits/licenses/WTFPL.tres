@@ -1,0 +1,11 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://addons/godot_credits/license_credit.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+id = "WTFPL"
+full_name = "Do What The F*ck You Want To Public License"
+free = true
+text = ""
+url = "http://www.wtfpl.net/about/"

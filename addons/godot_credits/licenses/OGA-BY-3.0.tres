@@ -1,0 +1,11 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://addons/godot_credits/license_credit.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+id = "OGA-BY-3.0"
+full_name = "OpenGameArt Attribution 3.0 Unported"
+free = true
+text = ""
+url = "https://static.opengameart.org/OGA-BY-3.0.txt"

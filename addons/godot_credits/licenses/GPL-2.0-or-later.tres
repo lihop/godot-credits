@@ -1,0 +1,11 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://addons/godot_credits/license_credit.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+id = "GPL-2.0-or-later"
+full_name = "GNU General Public License v2.0 or later"
+free = true
+text = ""
+url = "https://www.gnu.org/licenses/old-licenses/gpl-2.0-standalone.html"

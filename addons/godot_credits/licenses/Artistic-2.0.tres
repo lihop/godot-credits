@@ -1,0 +1,11 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://addons/godot_credits/license_credit.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+id = "Artistic-2.0"
+full_name = "Artistic License 2.0"
+free = true
+text = ""
+url = "https://www.perlfoundation.org/artistic-license-20.html"

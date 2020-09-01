@@ -1,0 +1,2 @@
+extends WorkCredit
+class_name SFXCredit
