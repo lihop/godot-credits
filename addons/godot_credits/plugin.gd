@@ -7,6 +7,9 @@ func get_name():
 
 
 func _enter_tree():
+	if not ProjectSettings.has_setting("godot_credits/path_prefix"):
+		ProjectSettings.set_setting("godot_credits/path_prefix", "/")
+	
 	add_custom_type("CreditsGenerator", "Node",
 			preload("./credits_generator.gd"), null)
 

@@ -93,7 +93,8 @@ func get_credits_markdown(credits: Array, credits_path: String,
 			for file in credit.files:
 				var file_path = file.get_path() if not file is String else \
 						"%s%s" % [credits_path.replace("credits.tres", ""), file]
-				file_path = file_path.replace("res://", "/")
+				file_path = file_path.replace("res://",
+						ProjectSettings.get_setting("godot_credits/path_prefix"))
 				var file_name = file_path.split("/")[-1]
 				files.append("[%s](%s)" % [file_name, file_path])
 			markdown += "%s**Files**: %s  \n" % [indent, files.join(", ")]
